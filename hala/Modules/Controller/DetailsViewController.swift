@@ -78,8 +78,8 @@ class DetailsViewController: UIViewController {
          
         
         
-        let url = URL(string:"https://picsum.photos/id/1/200/200")
-        //        let url = URL(string:user.avatar ?? "")
+      //  let url = URL(string:"https://picsum.photos/id/1/200/200")
+               let url = URL(string:user.avatar ?? "")
         photoImage.kf.indicatorType = .activity
         photoImage.kf.setImage(with: url)
         

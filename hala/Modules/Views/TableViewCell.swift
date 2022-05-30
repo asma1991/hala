@@ -45,8 +45,8 @@ class TableViewCell: UITableViewCell {
         companyLabel.text = user.job.company!
        
   
-        let url = URL(string:"https://picsum.photos/id/1/200/200")
-//        let url = URL(string:user.avatar ?? "")
+       // let url = URL(string:"https://picsum.photos/id/1/200/200")
+        let url = URL(string:user.avatar ?? "")
         imagUser.kf.indicatorType = .activity
         imagUser.kf.setImage(with: url)
        
